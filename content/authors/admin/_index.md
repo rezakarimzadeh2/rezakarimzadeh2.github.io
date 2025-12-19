@@ -23,7 +23,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Ph.D. Student and Research Assistant 
+role: Computer Scientist 
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -34,7 +34,7 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:reza.karimzadeh@di.ku.dk'
+    url: 'mailto:rezakarimzadeh1996@gmail.com'
     label: E-mail Me
   # - icon: brands/x
   #   url: https://twitter.com/AlexAIResearch
@@ -48,14 +48,18 @@ profiles:
   #   url: https://orcid.org/0000-0002-1825-0097
 
 interests:
-  - Image Processing
-  - Computer Vision
   - Image Segmentation
   - Medical Data Analysis
+  - Explainable AI
+  - Self-Supervised Learning
+  - Image Processing
   - Deep Learning
+  - Machine Learning
+  - Computer Vision
+  
 
 education:
-  - area: PhD Computer Science (AI Focus)
+  - area: PhD Computer Science
     institution: Copenhagen University
     icon: ""
     date_start: 2023-05-15
@@ -90,24 +94,58 @@ education:
       text: 'Read Thesis (Persian)'
       url: 'https://github.com/rezakarimzadeh1/myWebsite/raw/master/static/uploads/BSc_R_Karimzadeh_final_Report.pdf'
 work:
+  - position: Visiting Researcher
+    company_name: UMC Amsterdam | VU Amsterdam
+    company_url: https://www.vumc.nl/
+    icon: ''
+    date_start: 2026-01-01
+    date_end: 2026-03-31
+    summary: Conduct research on treatment response prediction for colorectal liver metastases (CRLM) patients using medical imaging and machine learning methods.
+
   - position: Computer Vision Developer
-    company_name: PART ARTIFICIAL INTELLIGENCE COMPANY
-    company_url: 'https://partcorp.ir/en/pages/artificial-intelligence.html'
+    company_name: PART Artificial Intelligence Company
+    company_url: https://partcorp.ir/en/pages/artificial-intelligence.html
     icon: ''
     date_start: 2022-10-01
     date_end: 2023-01-31
     summary: |2-
-      Worked on "Car Plate Detection" and "Signature Localization in Official Documents" projects and developed YOLO-based accurate algorithms  
+      Developed and deployed YOLO-based computer vision models for car plate detection and signature localization in official documents, improving robustness and accuracy in real-world scenarios.
 
-  - position: Research Intern
-    company_name: ELECTRO-Xray Company
-    company_url: 'https://openai.com/'
+  - position: Research Collaborator
+    company_name: PINLab, Geneva University Hospital
+    company_url: https://www.pinlab.ch/
     icon: ''
-    date_start: 2017-06-01
-    date_end: 2017-09-30
-    summary: |
-      Becoming familiar with Repair and maintenance of imaging systems such as MRI, CT, Portable Radiology device,Angiography, C-Arm, Mammography and OPG
+    date_start: 2020-01-01
+    date_end: 2021-09-30
+    summary: |2-
+      Worked on organ-at-risk and tumor segmentation using deep learning methods for medical imaging applications in a clinical research environment.
 
+  - position: Head of Image Processing Group
+    company_name: Iran’s National Elites Foundation
+    company_url: https://www.bmn.ir/
+    icon: ''
+    date_start: 2020-09-01
+    date_end: 2021-09-30
+    summary: |2-
+      Led the computer vision team developing non-contact heart rate estimation systems using rPPG from face and palm RGB videos, including data acquisition design, preprocessing pipelines, and integration with mobile and hardware-based solutions.
+
+  - position: Engineering Intern
+    company_name: Electro-Xray Company
+    company_url: ''
+    icon: ''
+    date_start: 2017-07-01
+    date_end: 2017-09-30
+    summary: |2-
+      Performed repair and maintenance of medical imaging systems, including MRI, CT, angiography, C-arm, mammography, and portable radiology devices.
+
+  - position: Teaching Assistant
+    company_name: University of Copenhagen | Sharif University of Technology | Amirkabir University of Technology
+    company_url: https://www.ku.dk/
+    icon: ''
+    date_start: 2019-01-01
+    date_end: 2024-12-31
+    summary: |2-
+      Assisted in teaching courses on deep learning, medical image analysis, image processing, numerical methods, and medical imaging systems, supporting lectures, assignments, and student projects.
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
@@ -125,11 +163,11 @@ skills:
         description: ''
         # percent: 90
         icon: chart-bar
-      - name: Image Processing 
+      - name: Image Processing/Computer Vision 
         description: ''
         # percent: 85
         icon: camera
-      - name: Git 
+      - name: Git/GitHub 
         description: ''
         # percent: 85
         icon: code-bracket-square
@@ -212,6 +250,6 @@ awards:
       Ranked in the top 0.3% among 222,500 students in the national university entrance exam in mathematics and physics discipline.
 ---
 
-Reza Karimzadeh is a PhD researcher in medical AI at the University of Copenhagen, specializing in deep-learning methods for medical imaging, including segmentation, classification, self-supervised learning, and explainable AI. His work focuses on PET, CT and MRI analysis for cancer diagnosis and exploring new techniques in medical data analysis. He collaborates with leading European research groups such as Geneva University Hospital and VU Amsterdam. Reza is committed to developing reliable, transparent, and clinically impactful AI systems, with a strong emphasis on reproducibility and open science.
+I am a Ph.D. candidate in Computer Science at the University of Copenhagen with hands-on experience in computer vision and deep learning across both academic and applied settings. My work focuses on building reliable, end-to-end machine learning systems, with expertise in 3D medical image analysis, object detection, self-supervised learning, and explainable AI. I have designed and implemented models ranging from YOLO-based detection pipelines to large-scale 3D segmentation and contrastive learning frameworks, taking projects from data preparation and preprocessing through model development, evaluation, and reproducible implementation. In parallel, I have industry experience developing production-oriented vision systems and leading small technical teams in interdisciplinary and international environments, and I am seeking a role where strong ML engineering and problem-solving skills can be applied to real-world products with an emphasis on robustness, interpretability, and impact.
 
-Outside of research, he enjoys solving mechanical puzzles, exploring new technologies, and studying psychology and human behavior.
+Outside of research, I enjoy solving mechanical puzzles, exploring new technologies, and studying psychology and human behavior.
