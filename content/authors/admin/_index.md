@@ -27,8 +27,12 @@ role: Computer Scientist
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Copenhagen University
+  - name: PhD @ Copenhagen University
     url: https://di.ku.dk/english/
+  - name: Intern @ Amsterdam UMC
+    url: https://werkenbij.amsterdamumc.org/en
+  - name: Intern @ Geneva University Hospital
+    url: https://www.hug.ch/en
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -52,6 +56,8 @@ interests:
   - Medical Data Analysis
   - Explainable AI
   - Self-Supervised Learning
+  - Object Detection
+  - Domain Adaptation
   - Image Processing
   - Deep Learning
   - Machine Learning
@@ -94,58 +100,73 @@ education:
       text: 'Read Thesis (Persian)'
       url: 'https://github.com/rezakarimzadeh1/myWebsite/raw/master/static/uploads/BSc_R_Karimzadeh_final_Report.pdf'
 work:
-  - position: Visiting Researcher
-    company_name: UMC Amsterdam | VU Amsterdam
+  - position: Machine Learning Intern | Research Intern
+    company_name: Amsterdam UMC | VU Amsterdam
     company_url: https://www.vumc.nl/
     icon: ''
     date_start: 2026-01-01
-    date_end: 2026-03-31
-    summary: Conduct research on treatment response prediction for colorectal liver metastases (CRLM) patients using medical imaging and machine learning methods.
+    date_end: null
+    summary: |2-
+      Developed and validated a Siamese deep learning model to predict cancer treatment response
+      from pre- and post-treatment CT scans (n=502). Built an end-to-end training and cross-validation
+      pipeline using PyTorch and MONAI, collaborating closely with oncologists and radiologists
+      to ensure clinical relevance and interpretability. Led a cross-institutional university–hospital project.
 
-  - position: Computer Vision Developer
-    company_name: PART Artificial Intelligence Company
+  - position: Machine Learning Intern | Research Intern (Remote)
+    company_name: Geneva University Hospital
+    company_url: ''
+    icon: ''
+    date_start: 2025-09-01
+    date_end: null
+    summary: |2-
+      Built a multi-center deep learning system to predict cancer subtype from PET scans using
+      set-based modeling (Transformers, Deep Sets, MIL, GNN). Achieved ROC-AUC up to 0.91
+      in cross-validation and improved external performance from 0.81 to 0.87 via test-time
+      adaptation (entropy minimization). Led a fully remote university–hospital collaboration.
+
+  - position: Deep Learning Engineer
+    company_name: PART Artificial Intelligence Startup
     company_url: https://partcorp.ir/en/pages/artificial-intelligence.html
     icon: ''
     date_start: 2022-10-01
     date_end: 2023-01-31
     summary: |2-
-      Developed and deployed YOLO-based computer vision models for car plate detection and signature localization in official documents, improving robustness and accuracy in real-world scenarios.
+      Developed and deployed YOLO-based object detection models for license plate detection
+      and signature localization, achieving mAP0.5 of 0.97 and 0.94 respectively. Optimized
+      robustness under varying lighting and quality conditions. Containerized and deployed
+      models using Docker with real-time inference APIs in production.
 
-  - position: Research Collaborator
-    company_name: PINLab, Geneva University Hospital
-    company_url: https://www.pinlab.ch/
-    icon: ''
-    date_start: 2020-01-01
-    date_end: 2021-09-30
-    summary: |2-
-      Worked on organ-at-risk and tumor segmentation using deep learning methods for medical imaging applications in a clinical research environment.
-
-  - position: Head of Image Processing Group
+  - position: Technical Lead | Computer Vision & Signal Processing Engineer
     company_name: Iran’s National Elites Foundation
-    company_url: https://www.bmn.ir/
+    company_url: ''
     icon: ''
     date_start: 2020-09-01
-    date_end: 2021-09-30
+    date_end: 2021-09-01
     summary: |2-
-      Led the computer vision team developing non-contact heart rate estimation systems using rPPG from face and palm RGB videos, including data acquisition design, preprocessing pipelines, and integration with mobile and hardware-based solutions.
+      Led the computer vision group in developing a non-contact heart rate estimation system
+      from RGB video (3.02 MAE). Designed signal processing pipelines including ROI tracking,
+      temporal filtering, and amplitude normalization. Coordinated deployment on mobile and
+      embedded platforms for real-time inference.
 
   - position: Engineering Intern
     company_name: Electro-Xray Company
     company_url: ''
     icon: ''
     date_start: 2017-07-01
-    date_end: 2017-09-30
+    date_end: 2017-09-01
     summary: |2-
-      Performed repair and maintenance of medical imaging systems, including MRI, CT, angiography, C-arm, mammography, and portable radiology devices.
+      Performed repair and maintenance of medical imaging systems including CT scanners,
+      portable radiology devices, C-Arm systems, mammography units, and OPG systems.
 
   - position: Teaching Assistant
-    company_name: University of Copenhagen | Sharif University of Technology | Amirkabir University of Technology
-    company_url: https://www.ku.dk/
+    company_name: Copenhagen University | Sharif University of Technology | Amirkabir University of Technology
+    company_url: ''
     icon: ''
-    date_start: 2019-01-01
-    date_end: 2024-12-31
+    date_start: null
+    date_end: null
     summary: |2-
-      Assisted in teaching courses on deep learning, medical image analysis, image processing, numerical methods, and medical imaging systems, supporting lectures, assignments, and student projects.
+      Teaching assistant for courses in Deep Learning, Numerical Methods, Medical Image Analysis
+      and Processing, Image Processing, and Medical Imaging Systems.
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
@@ -250,8 +271,10 @@ awards:
       Ranked in the top 0.3% among 222,500 students in the national university entrance exam in mathematics and physics discipline.
 ---
 
-I am a Ph.D. candidate in Computer Science at the University of Copenhagen with hands-on experience in computer vision and deep learning across both academic and applied settings. My work focuses on building reliable, end-to-end machine learning systems, with expertise in 3D medical image analysis, object detection, self-supervised learning, and explainable AI. 
+I am a Ph.D. candidate in Computer Science at the University of Copenhagen, specializing in computer vision, deep learning, and medical image analysis. My work focuses on building robust, end-to-end machine learning systems, with expertise in 3D segmentation, self-supervised learning, object detection, domain generalization, and explainable AI. I design and implement solutions across the full ML lifecycle — from data engineering and modeling to evaluation, reproducibility, and deployment.
 
-I have designed and implemented models ranging from YOLO-based detection pipelines to large-scale 3D segmentation and contrastive learning frameworks, taking projects from data preparation and preprocessing through model development, evaluation, and reproducible implementation. In parallel, I have industry experience developing production-oriented vision systems and leading small technical teams in interdisciplinary and international environments, and I am seeking a role where strong ML engineering and problem-solving skills can be applied to real-world products with an emphasis on robustness, interpretability, and impact.
+Alongside research, I have industry and hospital collaboration experience developing production-oriented vision systems and leading small technical teams in interdisciplinary, international environments. I am particularly motivated by applying strong ML engineering and problem-solving skills to real-world products where robustness, interpretability, and measurable impact are central.
 
-Outside of research, I enjoy solving mechanical puzzles, exploring new technologies, and studying psychology and human behavior.
+If you are interested, please reach out to collaborate 😃
+
+Outside of research, I enjoy solving mechanical puzzles, exploring new technologies, and studying psychology and human behavior. Currently, I am reading evolutionary biology (mostly Richard Dawkins books) out of curiosity about complex adaptive systems and the evolution behind them.

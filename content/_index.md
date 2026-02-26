@@ -29,16 +29,24 @@ sections:
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
-  - block: markdown
+  - block: resume-experience
     content:
-      title: '📚 My Research'
-      subtitle: ''
-      text: |-
-        I am a Ph.D. candidate in Computer Science at the University of Copenhagen, working on computer vision and deep learning with a focus on medical imaging/data, self-supervised learning, and explainable AI. My work emphasizes building robust, reproducible machine learning systems for real-world healthcare applications.
-
-        Please reach out to collaborate 😃
+      username: admin
     design:
-      columns: '1'
+      # Hugo date format
+      date_format: 'January 2006'
+      # Education or Experience section first?
+      is_education_first: false
+  # - block: markdown
+  #   content:
+  #     title: '📚 My Research'
+  #     subtitle: ''
+  #     text: |-
+  #       I am a Ph.D. candidate in Computer Science at the University of Copenhagen, working on computer vision and deep learning with a focus on medical imaging/data, self-supervised learning, and explainable AI. My work emphasizes building robust, reproducible machine learning systems for real-world healthcare applications.
+
+  #       Please reach out to collaborate 😃
+  #   design:
+  #     columns: '1'
   - block: collection
     id: papers
     content:
